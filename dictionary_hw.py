@@ -18,8 +18,9 @@ def delete():
 def to_do_task():
     while True:
         print('Enter your choice')
-        print('1.add task')
-        print ('2.delete task')
+        print('1.Add task')
+        print ('2.Delete task')
+        print('3.Exit')
         a=int(input("Enter your choice: "))
         if a==1:
             add()
